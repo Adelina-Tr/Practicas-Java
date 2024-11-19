@@ -1,7 +1,8 @@
 package com.practicajava.model;
 
 public class Automovil {
-    //Declaracion de Variables de Instancia (Atributos)
+    
+    // Declaracion de Variables de Instancia (Atributos)
     private int id;
     private String placa;
     private String marca;
@@ -11,12 +12,11 @@ public class Automovil {
     private double precio;
     private double kilometraje;
     private boolean isAsegurado;
-    
 
     public Automovil() {
     }
 
-    //Constructor: Inicializacion de Variables de Instancia
+    // Constructor: Inicializacion de Variables de Instancia
     public Automovil(int id, String placa, String marca, String modelo, int año, String color, double precio,
             double kilometraje, boolean isAsegurado) {
         this.id = id;
@@ -128,12 +128,5 @@ public class Automovil {
     public String toString() {
         return "Automovil [id=" + id + ", placa=" + placa + "]";
     }
-    
-    
 
-
-
-
-    
 }
-
