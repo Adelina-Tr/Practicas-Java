@@ -1,5 +1,6 @@
 package com.practicajava.services;
+import com.practicajava.model.Automovil;
 
-public class interfazAutomovil {
-
+public interface interfazAutomovil {
+    public void agregarAutomovil(Automovil automovil);
 }
